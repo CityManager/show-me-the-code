@@ -20,7 +20,7 @@ def invite_code(invite_id, length=10):
     prefix = hex(invite_id)[2:] + salt
     chars = string.ascii_letters + string.digits  # string模块字母和数字
     char_count = length - len(prefix)  # 剩余待补充字符长度
-    return prefix + ''.join([random.choice(chars) for i in char_count])  # 生成式,i可以不使用
+    return prefix + ''.join([random.choice(chars) for i in range(char_count)])  # 生成式,i可以不使用
 
 
 def get_invite_id(str_code):
