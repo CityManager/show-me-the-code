@@ -5,6 +5,7 @@ __author__ = 'CityManager'
 
 import random
 import string
+import uuid
 
 salt = "I"  # 分隔标志码
 
@@ -33,8 +34,23 @@ def get_invite_id(str_code):
     return int(id_hex, 16)
 
 
+def get_uuid_code():
+    """
+    uuid模块生成随机码
+    :return: 随机码
+    """
+    print(uuid.uuid3(uuid.NAMESPACE_DNS, 'practice_0001.py'))  # 基于MD5值
+    print(uuid.uuid4())  # 随机uuid
+    print(uuid.uuid5(uuid.NAMESPACE_DNS, 'practice_0001.py'))  # 基于SHA-1值
+    for ui in range(10):
+        print(uuid.uuid3(uuid.NAMESPACE_DNS, '{}'.format(ui)))
+    return uuid.uuid1()
+
+
 if __name__ == '__main__':
     for i in range(10, 500, 17):
         code = invite_code(i)
         code_id = get_invite_id(code)
         print(code, code_id)
+
+    print(get_uuid_code())
