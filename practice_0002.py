@@ -16,6 +16,7 @@ create table invitation_code(
 '''
 
 salt = "I"  # 分隔标志码
+invite_code_nums = 200
 
 
 def storage_invite_code(codes):
@@ -32,7 +33,7 @@ def storage_invite_code(codes):
         if not table_exits:  # 如果表不存在，则建表
             cursor.execute(create_sql)
             conn.commit()
-        for i, v in enumerate(codes):  # 将数据插入库表
+        for i, v in codes:  # 将数据插入库表
             cursor.execute("insert into invitation_code (id, code) values (%s, %s)", (i, v))
         conn.commit()
         cursor.close()
@@ -66,6 +67,6 @@ def get_invite_id(str_code):
 
 if __name__ == '__main__':
     my_codes = []
-    for code_id in range(200):
-        my_codes.append(invite_code(code_id))
+    for code_id in range(invite_code_nums):
+        my_codes.append((code_id, invite_code(code_id)))
     storage_invite_code(my_codes)
