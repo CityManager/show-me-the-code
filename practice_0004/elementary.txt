@@ -1,0 +1,63 @@
+Elementary 1 Difficult Customer
+A: Good evening. My name is Fabio. I'll be your waiter for tonight. May I take your order?
+B: No, I'm still working on it. This menu is not even in English. What's good here?
+A: For you sir,I would recommend spaghetti and meatballs.
+B: Does it come with coke and fries?
+A: It comes with either soup or salad and a complimentary glass of wine, sir.
+B: I'll go with spaghetti and meatballs, salad and the wine.
+A: Excellent choice, your order will be ready soon.
+B: How soon is soon.
+A: tTwenty minutes.
+B: You know what? I'll just go grab a burger across the street.
+
+still working on --> Phrase    --> not yet completed,need more time.
+would recommend  --> Verb      --> suggest
+complimentary    --> Adjective --> free
+go with          --> Phrase    --> to choose, pick
+grab             --> Verb      --> get quickly
+waitress         --> Noun      --> female server in a restaurant or bar
+fast food        --> Phrase    --> food prepared and served quickly
+impatient        --> Adjective --> uncomfortable waiting, wanting to go
+fancy            --> Adjective --> nice, expensive, upscale
+casual           --> Adjective --> relaxed, not dressy
+
+
+
+Elementary 2 Calling In Sick
+A:Hello, Daniel speaking, how may I help you?
+B:Hi, Daniel, Julie here.
+A:Hi, Julie, how are you?
+B:Actually, I'm feeling quite ill today.
+A:I'm sorry to hear that. What's wrong?
+B:I think I'm coming down with the flu. I have a headache, a sore throat, a running/runny nose and I feeling slightly feverish.
+A:I see... So, you're calling in sick?
+B:Yes, I was hoping to take the day off to recover.
+
+was hoping         ---> phrase  ---> to kindly expect
+calling in sick    ---> phrase  ---> report that you will not go to work because you are sick.
+coming down        ---> phrase  ---> getting, acquiring
+quite ill          ---> phrase  ---> very sick
+how may i help you ---> phrase  --->  Polite offer to help
+make it into work  ---> phrase  ---> go to work
+sick day           ---> phrase  ---> day off because you're sick
+impolite           ---> adjective ---> rude
+permission         ---> common noun,  singular ---> allow
+symptom            ---> common noun, singular  ---> a sign, indication
+
+
+
+Elementary 31  Canceling an Appointment
+A: Hello, Samantha speaking.
+B: Hi, Samantha. This is Angela calling.
+A: Oh, hi Angela, what's up?
+B: I'm just calling about our meeting today. I wonder, is it possible to reschedule our appointment in the afternoon? 
+   I have a bit of an emergency that I need to take care of.
+A: Let me see. It shouldn't be too much of a problem...
+B: I am really sorry, I hope it doesn't inconvenience you too much, it's just this things came up, and...
+A: Angela, you know what, I can't make it to our meeting, either. Why don't we postpone it to tomorrow afternoon at the same time?
+B: Sounds great. See you tomorrow.
+C: Angela...Angela, look up. See that lady over there who is trying on a red leather jacket? Isn't that Samatha?
+B: What? No wonder she told me she couldn't make it to the meeting. Oh, no, I think she saw me...
+
+
+
