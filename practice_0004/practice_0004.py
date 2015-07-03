@@ -6,7 +6,6 @@ __author__ = 'CityManager'
 import string
 
 letters = string.ascii_letters
-nums = string.digits
 
 
 def count_words(filename):
