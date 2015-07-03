@@ -27,7 +27,7 @@ def resize_image(filename, size=(1136, 640)):
         print(img.size)
         fit_size = adjust_size(img.size, size)
         if fit_size:
-            temp_name = '{}_{}_{}.{}'.format(image_name, fit_size[0], fit_size[1], image_ext)
+            temp_name = '{}_{}_{}{}'.format(image_name, fit_size[0], fit_size[1], image_ext)
             img.resize(fit_size, resample=Image.LANCZOS).save(temp_name)
     except IOError:
         print('{}文件无法打开'.format(filename))
