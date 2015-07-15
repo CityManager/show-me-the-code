@@ -20,7 +20,7 @@ def mask_num_circle(image_s, num=0):
     size_x, size_y = image_s.size
     padding_x, padding_y = size_x//15, size_y//15  # 预留padding
     im_size_x, im_size_y = size_x+padding_x, size_y+padding_y  # 背景的大小
-    image_t = Image.new("RGBA", (im_size_x, im_size_y), color=(0, 0, 0, 255))  # 黑底透明,不能实现
+    image_t = Image.new("RGBA", (im_size_x, im_size_y), color=(0, 0, 0, 0))  # 0才是透明
 
     # 贴入原图
     image_t.paste(image_s, (0, padding_y, size_x, im_size_y))
@@ -44,6 +44,4 @@ def mask_num_circle(image_s, num=0):
 
 if __name__ == "__main__":
     with Image.open("321.jpg") as im:
-        mask_num_circle(im, 14).save("test.jpg", "JPEG")
-
-    #  返回的图片无法实现背景透明，不知道要怎么实现
+        mask_num_circle(im, 14).save("test.png", "PNG")  # 保存成png格式，才能实现透明背景
