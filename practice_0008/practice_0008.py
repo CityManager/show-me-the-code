@@ -19,8 +19,8 @@ class ZhihuHTMLParser(HTMLParser):
         for key, value in atts:
             if key == name:
                 return value
-            else:
-                return ""
+        else:
+            return ""
 
     def handle_starttag(self, tag, attrs):
         tag_id = ZhihuHTMLParser.get_value(attrs, 'id')
