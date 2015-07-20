@@ -29,7 +29,7 @@ class ZhihuHTMLParser(HTMLParser):
             if tag == 'br':
                 self.data += '\n'
             elif tag == 'img':
-                self.data += ' '
+                self.data += ZhihuHTMLParser.get_value(attrs, 'src')
             else:
                 self.sub_tag += 1
         elif tag == 'div' and tag_id == 'zh-question-title':
