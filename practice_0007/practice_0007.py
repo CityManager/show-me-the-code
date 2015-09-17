@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
+import os
 
 __author__ = 'CityManager'
-
-
-import os
 
 """
 计算程序文件中注释、空行、代码的行数

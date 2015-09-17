@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
-
-__author__ = 'CityManager'
-
 import urllib.request
 import re
+
+__author__ = 'CityManager'
 
 
 def get_html(url):

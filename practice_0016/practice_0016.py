@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
+from openpyxl import Workbook
 
 __author__ = 'CityManager'
-
-from openpyxl import Workbook
 
 
 def get_numbers(filename):

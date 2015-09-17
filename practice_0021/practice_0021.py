@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
-
-__author__ = 'CityManager'
-
 import pymysql
 import hashlib
 import os
 import re
 import base64
+
+__author__ = 'CityManager'
+
 
 """
 对密码进行hash，而后再进行base64解码

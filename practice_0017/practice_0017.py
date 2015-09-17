@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
+from openpyxl import load_workbook
+from xml.dom.minidom import getDOMImplementation
 
 __author__ = 'CityManager'
 
 """
 http://openpyxl.readthedocs.org
 """
-
-from openpyxl import load_workbook
-from xml.dom.minidom import getDOMImplementation
 
 
 class Student(object):

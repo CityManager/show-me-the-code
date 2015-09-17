@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
+import string
 
 __author__ = 'CityManager'
-
-import string
 
 letters = string.ascii_letters
 

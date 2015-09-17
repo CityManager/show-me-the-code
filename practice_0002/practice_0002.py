@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
+import random
+import string
+import pymysql
 
 __author__ = 'CityManager'
 
-import mysql.connector
-import random
-import string
+
 
 create_sql = '''
 create table invitation_code(
@@ -25,7 +26,7 @@ def storage_invite_code(codes):
     :param codes: 邀请码list集合
     :return: None
     """
-    conn = mysql.connector.connect(host='192.168.56.1', port=3306, user='pyuser', password='gmcc1234', database='pysql')
+    conn = pymysql.connect(host='192.168.56.1', port=3306, user='pyuser', password='gmcc1234', database='pysql')
     try:
         cursor = conn.cursor()
         cursor.execute("select count(*) from information_schema.tables where table_name = 'invitation_code'")
