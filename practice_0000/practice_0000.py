@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
-
-__author__ = 'CityManager'
-
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageColor
 from PIL import ImageFont
+
+__author__ = 'CityManager'
 
 
 def mask_num_circle(image_s, num=0):
